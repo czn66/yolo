@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 7
+names: ['Chave_H_230kV', 'Chave_V_230kV', 'DISJUNTOR', 'Pararraio_230kV', 'Pararraio_69kV', 'TC', 'TP']
+
+roboflow:
+  workspace: czn666
+  project: biandianzhan1-mmzb3
+  version: 1
+  license: MIT
+  url: https://universe.roboflow.com/czn666/biandianzhan1-mmzb3/dataset/1
